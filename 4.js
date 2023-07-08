@@ -1,3 +1,5 @@
+// Callback hell
+
 /**
                       Time(Seconds)
 1>- Place the order      --> 2
@@ -49,5 +51,7 @@ const production = () => {
   }, 0);
 };
 
+// The above code is not readable and it is called as callback hell.
+// To avoid this we use promises.
 //4............................
 order(0, production);
