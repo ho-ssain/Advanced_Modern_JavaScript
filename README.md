@@ -8,7 +8,6 @@
 4. Callback Hell
 5. Promise
 6. async await
-7. Event Loop
-8. Microtask Queue
-9. Call Stack
-10. Web API
+7. In-depth of functions
+   1. Recursion
+   2. Spread Operator vs. Rest Parameter

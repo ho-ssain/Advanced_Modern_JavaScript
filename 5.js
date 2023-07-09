@@ -56,7 +56,7 @@ const order = (time, work) => {
   });
 };
 
-const pro = order(2000, () => console.log(`${stocks.fruits[2]} is Selected.`))
+order(2000, () => console.log(`${stocks.fruits[2]} is Selected.`))
   .then(() => {
     return order(1000, () =>
       console.log("Order Received.... Starting the Production.")
@@ -89,7 +89,7 @@ const pro = order(2000, () => console.log(`${stocks.fruits[2]} is Selected.`))
   .catch(() => console.log("Customer left."))
   .finally(() => console.log("Thank you for visiting our shop."));
 
-console.dir(pro);
+// console.dir(pro)
 
 /*
 Why use promises?
