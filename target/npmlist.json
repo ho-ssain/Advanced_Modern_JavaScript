@@ -1,5 +1,0 @@
-{
-  "version": "1.0.0",
-  "name": "javascript_novice_to_expert",
-  "dependencies": { "prompt-sync": { "version": "4.2.0" } }
-}

@@ -25,3 +25,4 @@
 23. Clone array, concat, spread operator
 24. Array destructuring
 25. Intro to objects
+26. difference between dot and bracket
