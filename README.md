@@ -26,3 +26,25 @@
 24. Array destructuring
 25. Intro to objects
 26. difference between dot and bracket
+27. how to iterate object
+28. Computed Properties
+29. Spread operator in array and objects
+30. iterable data structures
+31. Object destructuring
+32. Object inside array
+33. Function declaration
+34. Function Expression
+35. Arrow Functions
+36. function inside function
+37. Lexical Scope
+38. callback function
+39. forEach method
+40. map method
+41. filter method
+42. reduce method
+43. sort method
+44. find method
+45. every method
+46. some method
+47. fill method
+48. splice method
