@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  position: relative;
+  min-height: 60vh;
+  background: url('/img/p4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+  width: 90%;
+}
+
+.nav{
+  min-height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items{
+  width: 40%;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.headline {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn{
+  display: inline-block;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-headline{
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  margin: 1rem;
+  font-weight: 700;
+}
+
+.todo-section{
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.todo-from{
+  margin-top: 1rem;
+  min-height: 5vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-from input {
+  min-height: 100%;
+}
+
+.todo-from input[type="text"]{
+  width: 77%;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+
+}
+.todo-from input[type="submit"]{
+  width: 20%;
+  background: #23211f;
+  color: white;
+  font-weight: bold;
+}
+
+.signUp-section{
+  margin: 5rem auto;
+  text-align: center;
+  background: #001118;
+  border-radius: 10px;
+  padding: 1rem;
+  color: white;
+}
+
+.signUp-form{
+  max-width: 800px;
+  width: 95%;
+  margin: auto;
+  text-align: left;
+}
+
+.signUp-form label{
+  display: block;
+}
+
+.signUp-form input{
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.form-group{
+  margin-top: 1rem;
+}
+
+.btn-signUp{
+  background: #071c25;
+  color: white;
+  padding: 1rem 2rem;
+  display: inline-block;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.btn-signUp:hover{
+  background: #072d3d;
+}

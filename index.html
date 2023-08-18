@@ -1,10 +1,105 @@
+<!--
+
+The `async` and `defer` attributes in HTML `<script>` elements are used to control how external JavaScript files are downloaded and executed. They are used to optimize page loading and improve the rendering of web content. Here are the key differences between `async` and `defer`:
+
+  1. **Async:**
+    - When you include the `async` attribute in a `<script>` tag, the browser will download the script asynchronously while continuing to parse the HTML document.
+    - The script is executed as soon as it's downloaded, even if the HTML parsing is not complete.
+    - Use `async` for scripts that don't depend on the order of execution or interaction with other scripts.
+  
+  Example:
+  ```html
+  <script src="script.js" async></script>
+  ```
+  
+  2. **Defer:**
+    - When you include the `defer` attribute in a `<script>` tag, the browser will download the script asynchronously while parsing the HTML document.
+    - The script is executed after the HTML parsing is complete but before the `DOMContentLoaded` event is fired.
+    - Use `defer` for scripts that need to be executed in the order they appear in the HTML document and may interact with the DOM.
+  
+  Example:
+  ```html
+  <script src="script.js" defer></script>
+  ```
+  
+  In summary:
+  - If you use `async`, the script is downloaded and executed asynchronously, possibly before the HTML parsing is complete.
+  - If you use `defer`, the script is downloaded asynchronously and executed after the HTML parsing is complete but before the `DOMContentLoaded` event.
+  
+  Both attributes can improve the performance of your web page by not blocking the rendering process, but the choice between them depends on the specific requirements of your scripts and how they interact with the rest of the page.
+
+
+
+
+
+
+-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./index.css" />
     <title>Js_N-E</title>
-    <script src="" defer></script>
+    <script src="./73.js" defer></script>
   </head>
-  <body></body>
+
+  <body>
+    <header class="header">
+      <nav class="container nav">
+        <h1 class="logo">Doit</h1>
+        <ul class="nav-items">
+          <li><a href="#">Home </a></li>
+          <li><a href="#">ToDo </a></li>
+          <li><a href="#">Login/SignUp </a></li>
+        </ul>
+      </nav>
+      <div class="headline">
+        <h2>Manage your Tasks</h2>
+        <button class="btn btn-headline">Learn More</button>
+      </div>
+    </header>
+
+    <section class="todo-section container">
+      <h2>Plan For Today</h2>
+      <form action="#" class="todo-from">
+        <input type="text" name="u" id="r" placeholder="Add Task" />
+        <input type="submit" value="Add Task" class="btn" />
+      </form>
+    </section>
+
+    <section class="signUp-section container">
+      <h2>Sign Up</h2>
+      <form action="" class="signUp-form">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="text" name="phone" id="phone" />
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+        </div>
+
+        <div class="form-group">
+          <label for="password">Confirm Password</label>
+          <input type="password" name="cpassword" id="cpassword" />
+        </div>
+
+        <button type="submit" class="btn btn-signUp">Submit</button>
+      </form>
+    </section>
+  </body>
 </html>

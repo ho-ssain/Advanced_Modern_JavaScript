@@ -1,4 +1,4 @@
-// // splice method
+// splice method
 // The `splice` method is a built-in array method in JavaScript that allows you to modify an array by adding or removing elements at a specific index. It is a powerful method that can both add new elements and remove existing elements from the array.
 
 // The syntax for the `splice` method is as follows:

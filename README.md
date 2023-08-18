@@ -48,3 +48,31 @@
 46. some method
 47. fill method
 48. splice method
+49. set
+50. map
+51. optional chaining
+52. clone using Object.assign
+53. Create your own methods
+54. this
+55. call, apply, bind methods
+56. small warning
+57. arrow functions and this
+58. short syntax
+59. create functions to create multiple objects
+60. store methods in different object
+61. solution using object.create
+62. What is prototype
+63. Use prototype
+64. New keyword
+65. hasOwnProperty
+66. more about prototype
+67. class keyword
+68. class practice and extends keyword
+69. super keyword
+70. same method in base class
+71. getters and setters
+72. static methods and properties
+73. How javascript works overview
+74. Intro to closures
+75. What is DOM ?
+76. getElementById
