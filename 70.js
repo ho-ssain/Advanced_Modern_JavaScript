@@ -1,1 +1,0 @@
-// Closures Example 2
